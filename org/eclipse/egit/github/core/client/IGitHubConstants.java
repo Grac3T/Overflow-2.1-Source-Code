@@ -1,0 +1,93 @@
+// 
+// Decompiled by Procyon v0.5.36
+// 
+
+package org.eclipse.egit.github.core.client;
+
+public interface IGitHubConstants
+{
+    public static final String AUTH_TOKEN = "token";
+    public static final String CHARSET_UTF8 = "UTF-8";
+    public static final String CHARSET_ISO_8859_1 = "ISO-8859-1";
+    public static final String CONTENT_TYPE_JSON = "application/json";
+    public static final String DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss'Z'";
+    public static final String DATE_FORMAT_V2_1 = "yyyy/MM/dd HH:mm:ss Z";
+    public static final String DATE_FORMAT_V2_2 = "yyyy-MM-dd'T'HH:mm:ss";
+    public static final String HEADER_LINK = "Link";
+    public static final String HEADER_NEXT = "X-Next";
+    public static final String HEADER_LAST = "X-Last";
+    public static final String HOST_API = "api.github.com";
+    public static final String HOST_DEFAULT = "github.com";
+    public static final String HOST_GISTS = "gist.github.com";
+    public static final String META_REL = "rel";
+    public static final String META_LAST = "last";
+    public static final String META_NEXT = "next";
+    public static final String META_FIRST = "first";
+    public static final String META_PREV = "prev";
+    public static final String PARAM_LANGUAGE = "language";
+    public static final String PARAM_PAGE = "page";
+    public static final String PARAM_PER_PAGE = "per_page";
+    public static final String PARAM_START_PAGE = "start_page";
+    public static final String PROTOCOL_HTTPS = "https";
+    public static final String SCHEME_OAUTH2 = "oauth2";
+    public static final String SEGMENT_AUTHORIZATIONS = "/authorizations";
+    public static final String SEGMENT_BLOBS = "/blobs";
+    public static final String SEGMENT_BRANCHES = "/branches";
+    public static final String SEGMENT_COLLABORATORS = "/collaborators";
+    public static final String SEGMENT_COMMENTS = "/comments";
+    public static final String SEGMENT_CONTENTS = "/contents";
+    public static final String SEGMENT_CONTRIBUTORS = "/contributors";
+    public static final String SEGMENT_COMMITS = "/commits";
+    public static final String SEGMENT_COMPARE = "/compare";
+    public static final String SEGMENT_CREATE = "/create";
+    public static final String SEGMENT_DOWNLOADS = "/downloads";
+    public static final String SEGMENT_EMAILS = "/emails";
+    public static final String SEGMENT_EVENTS = "/events";
+    public static final String SEGMENT_FILES = "/files";
+    public static final String SEGMENT_FOLLOWERS = "/followers";
+    public static final String SEGMENT_FOLLOWING = "/following";
+    public static final String SEGMENT_FORK = "/fork";
+    public static final String SEGMENT_FORKS = "/forks";
+    public static final String SEGMENT_GISTS = "/gists";
+    public static final String SEGMENT_GIT = "/git";
+    public static final String SEGMENT_HOOKS = "/hooks";
+    public static final String SEGMENT_ISSUES = "/issues";
+    public static final String SEGMENT_KEYS = "/keys";
+    public static final String SEGMENT_LABELS = "/labels";
+    public static final String SEGMENT_LEGACY = "/legacy";
+    public static final String SEGMENT_LANGUAGES = "/languages";
+    public static final String SEGMENT_MARKDOWN = "/markdown";
+    public static final String SEGMENT_MEMBERS = "/members";
+    public static final String SEGMENT_MERGE = "/merge";
+    public static final String SEGMENT_MILESTONES = "/milestones";
+    public static final String SEGMENT_NETWORKS = "/networks";
+    public static final String SEGMENT_ORGANIZATIONS = "/organizations";
+    public static final String SEGMENT_MEMBERSHIPS = "/memberships";
+    public static final String SEGMENT_ORGS = "/orgs";
+    public static final String SEGMENT_PUBLIC = "/public";
+    public static final String SEGMENT_PUBLIC_MEMBERS = "/public_members";
+    public static final String SEGMENT_PULLS = "/pulls";
+    public static final String SEGMENT_README = "/readme";
+    public static final String SEGMENT_RECEIVED_EVENTS = "/received_events";
+    public static final String SEGMENT_REFS = "/refs";
+    public static final String SEGMENT_REPOS = "/repos";
+    public static final String SEGMENT_REPOSITORIES = "/repositories";
+    public static final String SEGMENT_SEARCH = "/search";
+    public static final String SEGMENT_SHOW = "/show";
+    public static final String SEGMENT_STAR = "/star";
+    public static final String SEGMENT_STARGAZERS = "/stargazers";
+    public static final String SEGMENT_STARRED = "/starred";
+    public static final String SEGMENT_STATUSES = "/statuses";
+    public static final String SEGMENT_TAGS = "/tags";
+    public static final String SEGMENT_TEAMS = "/teams";
+    public static final String SEGMENT_TEST = "/test";
+    public static final String SEGMENT_TREES = "/trees";
+    public static final String SEGMENT_USER = "/user";
+    public static final String SEGMENT_USERS = "/users";
+    public static final String SEGMENT_WATCHED = "/watched";
+    public static final String SEGMENT_WATCHERS = "/watchers";
+    public static final String SEGMENT_V3_API = "/api/v3";
+    public static final String SUBDOMAIN_API = "api";
+    public static final String SUFFIX_GIT = ".git";
+    public static final String URL_API = "https://api.github.com";
+}
